@@ -1,0 +1,263 @@
+
+/*================ Brackpoint css start ================*/
+
+/*----------====== Medem screens devicest ======----------*/
+@media screen and (max-width: 991px){
+	/*--- Common css ---*/
+	body{
+		font-size: var(--size-14);
+	}
+
+	h1{
+		font-size: var(--size-50);
+	}
+
+	.tag-h1{
+		font-size: var(--size-50);
+	}
+
+	h2{
+		font-size: var(--size-40);
+	}
+
+	h3{
+		font-size: var(--size-30);
+	}
+
+	.tag-h3{
+		font-size: var(--size-30);
+	}
+
+	h4{
+		font-size: var(--size-22);
+	}
+
+	h5{
+		font-size: var(--size-18);
+	}
+
+	/*--- Theme css ---*/
+
+	/*--- Intro section ---*/
+	#intro-section{
+		padding: 50px 0 50px 0;
+	}
+
+	.intro-details-area{
+		padding-right: 20px;
+	}
+
+	.intro-image-area{
+		float: right;
+		width: 80%;
+	}
+
+	/*--- About section ---*/
+	.about-image-area{
+		width: 85%;
+		float: left;
+	}
+
+	.about-details-area{
+		padding-left: 20px;
+	}
+
+	/*--- Portfolio section ---*/
+	.work-area{
+		margin-bottom: 20px;
+	}
+
+	.work-area:nth-child(3){
+		margin-bottom: 0;
+	}
+
+}
+
+/*----------====== Small screens, laptops devicest ======----------*/
+@media screen and (max-width: 767px){
+	/*--- Common css ---*/
+	body{
+		font-size: var(--size-14);
+	}
+
+	h1{
+		font-size: var(--size-40);
+	}
+
+	.tag-h1{
+		font-size: var(--size-40);
+	}
+
+	h2{
+		font-size: var(--size-40);
+	}
+
+	h3{
+		font-size: var(--size-30);
+	}
+
+	.tag-h3{
+		font-size: var(--size-30);
+	}
+
+	h4{
+		font-size: var(--size-18);
+	}
+
+	h5{
+		font-size: var(--size-16);
+	}
+
+	.buttons{
+		padding: 13px 25px;
+		font-size: var(--size-15);
+	}
+
+	/*--- Theme css ---*/
+
+	/*--- Intro section ---*/
+	#intro-section{
+		padding: 50px 0 50px 0;
+	}
+
+	.intro-details-area{
+		padding: 0;
+	}
+
+	.intro-image-area{
+		float: none;
+		width: 100%;
+	}
+
+	/*--- About section ---*/
+	.about-image-area{
+		width: 100%;
+		padding-bottom: 30px;
+	}
+
+	.about-details-area{
+		padding: 0;
+	}
+
+	/*--- Portfolio section ---*/
+	.work-area{
+		margin-bottom: 20px;
+	}
+
+	.work-area:nth-child(3){
+		margin-bottom: 0;
+	}
+
+	/*--- Chat-section ---*/
+	.chat-area{
+		padding: 70px 20px;
+		border-radius: 20px;
+		align-items: center;
+	}
+
+}
+
+/*----------====== Mobile screen devicest ======----------*/ 
+@media screen and ( max-width: 340px ){
+
+	/*--- Common css ---*/
+	body{
+		font-size: var(--size-14);
+	}
+
+	h1{
+		font-size: var(--size-30);
+	}
+
+	.tag-h1{
+		font-size: var(--size-30);
+	}
+
+	h2{
+		font-size: var(--size-30);
+	}
+
+	h3{
+		font-size: var(--size-22);
+	}
+
+	.tag-h3{
+		font-size: var(--size-22);
+	}
+
+	h4{
+		font-size: var(--size-16);
+	}
+
+	h5{
+		font-size: var(--size-15);
+	}
+
+	.buttons{
+		padding: 12px 25px;
+		font-size: var(--size-14);
+	}
+
+	/*--- Common css ---*/
+	
+	/*--- Intro section ---*/
+	.intro-details-area{
+		padding: 0;
+	}
+
+	.intro-image-area{
+		float: none;
+		width: 100%;
+		padding-top: 30px;
+	}
+
+	/*--- About section ---*/
+	.about-image-area{
+		width: 100%;
+		padding-bottom: 30px;
+	}
+
+	.about-details-area{
+		padding: 0;
+	}
+
+	/*--- Portfolio section ---*/
+	#portfolio-section{
+		padding: 70px 0;
+	}
+	#portfolio-section .text-center{
+		margin-bottom: 50px;
+	}
+
+	.work-area{
+		margin-bottom: 15px;
+	}
+
+	.work-area:nth-child(3){
+		margin-bottom: 0;
+	}
+
+	/*--- Chat-section ---*/
+	#chat-section{
+		padding: 70px 0;
+	}
+
+	.chat-area{
+		padding: 40px 15px;
+		border-radius: 20px;
+		display: block;
+		text-align: center;
+	}
+
+	.chat-area h2{
+		padding-bottom: 30px;
+	}
+
+	/*--- Footer section ---*/
+	#footer-section{
+		padding-bottom: 70px;
+	}
+
+}
+
+/*================ Brackpoint css end ================*/
